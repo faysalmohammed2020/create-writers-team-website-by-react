@@ -4,3 +4,4 @@
 3.this is dynamic website .
 4.In this sites src folder you can find 5 components.
 5.this is very organized and clean codded.
+6. data of this site is created by own.
