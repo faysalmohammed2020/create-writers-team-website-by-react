@@ -10,14 +10,24 @@
     
 } */
 .card{
-    background-color: lightsteelblue;
-    width: 300px;
+    background-color: white;
+    width: 50%;
     padding: 20px;
     margin-top: 20px;
     margin-right:40px;
     
      
 }
+.card:hover{
+    background-color: lightgray;
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right:40px;
+    color: black;
+     
+}
 .image{
-    width: 150px;
+    width: 100px;
+    text-align: center;
 }

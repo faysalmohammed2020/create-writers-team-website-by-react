@@ -5,12 +5,19 @@ import './Teams.css';
 
 const Teams = () => {
     const[members,setMember] = useState([]);
+    const[cart,setCart] = useState([]);
     useEffect(() =>{
         fetch('./writer.JSON')
         .then(res => res.json())
         .then(data => setMember(data))
         
-    },[])
+    },[]);
+    const handleCart = (member) =>{
+        console.log(member);
+        const newCart =[...cart,member];
+        setCart(newCart)
+    }
+
     return (
         <div className = "teams-container">
             <div className = "teams">
@@ -19,6 +26,7 @@ const Teams = () => {
                   members.map(member => <Member 
                     member={member}
                     key = {member.key}
+                    handleCart ={handleCart}
                     >
 
                     </Member>)
@@ -27,7 +35,8 @@ const Teams = () => {
               
             </div>
             <div className = "cart">
-                  <Cart></Cart>
+                  <Cart cart={cart}
+                  ></Cart>
             </div>
         </div>
     );
