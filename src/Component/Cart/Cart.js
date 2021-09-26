@@ -9,11 +9,7 @@ const Cart = (props) => {
     }
     
     return (
-        // <div>
-        //     <h1>this is cart</h1>
-            
-        //     <h3>Total: {total}</h3>
-        // </div>
+        
         <div className="card" style={{ width: '18rem' }}>
   <div className="card-body">
     <h5 className="card-title">Cart</h5>
