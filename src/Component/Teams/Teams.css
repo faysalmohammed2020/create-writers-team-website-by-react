@@ -1,0 +1,17 @@
+.teams-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+    
+
+}
+
+.teams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-right: 1px solid lightgray;
+}

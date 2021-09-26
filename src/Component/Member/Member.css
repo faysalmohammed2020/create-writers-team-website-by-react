@@ -1,0 +1,23 @@
+/* .card-container{
+    /* display: flex;
+    flex-direction: row;  */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px; 
+    
+    
+   
+    
+} */
+.card{
+    background-color: lightsteelblue;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right:40px;
+    
+     
+}
+.image{
+    width: 150px;
+}

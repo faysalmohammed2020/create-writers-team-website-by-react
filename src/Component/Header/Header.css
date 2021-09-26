@@ -1,0 +1,9 @@
+.header{
+    text-align: center;
+    background: lightgrey;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 350px;
+}
